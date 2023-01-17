@@ -1,0 +1,45 @@
+body{
+  padding: 20px;
+}
+
+.converter-body{
+  background-color: red;
+  /* border-style: solid;
+  border: 10px;
+  border-width: 50px;
+  border-radius: 20px;
+  border-color: black; */
+ 
+  height: 110px;
+  width: 800px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.footer{
+  position:fixed;
+  left:10px;
+  bottom:0px;
+  height:70px;
+}
+
+input{
+  height: 50px;
+}
+#input{
+  margin-left: 200px;
+}
+
+.converter-title{
+  margin-left: 80px;
+}
+
+#inputType,#resultType{
+  margin-left: 220px;
+  width: 80px;
+}
+
+#resultType{
+  margin-left: 100px;
+}
