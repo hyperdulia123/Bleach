@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bleach stability</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <a href="./about.html" class="navbutton">About</a>
+
+    <div class="title">
+      <h1 class="converter-title">Hypochlorite Concentration Prediction Model</h1>
+    </div>
+    <img src="pictures/fullarrow.png" id="fullarrow">
+    <div class="parameters"> 
+      <input type="text" placeholder="Days stored" id="input">
+      <br>
+      <br>
+      <div>
+        Temperature:
+        <select id="temperature">
+          <option>-</option>
+          <option>20&#8451;</option>
+          <option>35&#8451;</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        Starting concentration (g/L):
+        <select id="startingConc">
+          <option>-</option>
+          <option>175</option>
+          <option>150</option>
+          <option>80</option>
+          <option>40</option>
+          <option>35</option>
+          <option>25</option>
+          <option>15</option>
+          <option>1</option>
+        </select>
+      </div>
+      <br>
+      Starting pH: <input type="text" id="coformconc">
+      <br>
+      <br>
+      <div id="add">
+        <button type="button"  onclick="add()" style="background-color: gray; border-color: gray;">+</button><button type="button" onclick="remove()" style="background-color: gray; border-color: gray;">-</button> Other species present:
+        <br>
+        <select id="coform">
+          <option>-</option>
+          <option>Surfactant</option>
+          <option>Perfume</option>
+          <option>Corrosion inhibitor</option>
+          <option>Copper</option>
+          <option>Iron</option>
+        </select>
+        at a concentration of: <input type="text" id="coformconc"> g/L
+        <br>
+      </div>
+
+
+
+      <br>
+      <br>
+
+      <button id="calculate" type="button">Calculate</button>
+
+    </div>
+
+
+
+    <input type="text" placeholder="Hypochlorite concentration" id="result">
+
+
+
+
+
+
+    <script src="model.js"></script>
+  </body>
+
+
+
+
+  
+</html>
+
+
+
+
+
+

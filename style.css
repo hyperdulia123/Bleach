@@ -1,0 +1,86 @@
+body{
+  background-color: rgba(128, 128, 128, 0.452);
+  position: relative;
+}
+
+.title{
+  background-color: red;
+  border-radius: 20px;
+  height: 80px;
+  width: 850px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  align: center;
+}
+
+.parameters{
+  position: absolute;
+  top: 320px;
+  left: 550px;
+}
+
+.footer{
+  position:fixed;
+  left:10px;
+  bottom:0px;
+  height:70px;
+}
+
+#input{
+  height: 25px;
+}
+
+#result{
+  height: 50px;
+  position: absolute;
+  top: 400px;
+  left: 1050px;
+  border-radius: 5px;
+}
+
+#coformconc{
+  height: 20px;
+  width: 40px;
+}
+.converter-title{
+  margin-left: 80px;
+}
+
+#fullarrow{
+  width: 80px;
+  position: absolute;
+  top: 300px;
+  left: 920px;
+}
+
+#hypochlorite{
+  height: 150px;
+  position: absolute;
+  top: -200px;
+  left: 0px;
+}
+
+.navbutton{
+  background-color: black;
+  color: white;
+  padding: 10px;;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 5px;
+}
+
+#aboutsection{
+  position:absolute;
+  top:70px;
+  font-size: larger;
+}
+
+#calculate{
+  font-weight: 600;
+  height:30px;
+}
